@@ -15,7 +15,7 @@ body {
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 .container {
   background-color: #1f1f1f;
@@ -28,28 +28,28 @@ body {
   align-items: center;
 }
 
-.card-img {
+.card__img {
   width: 7rem;
   border-radius: 50%;
   margin-top: 2rem;
 }
-.card-name {
+.card__name {
   font-size: 2.4rem;
   margin-top: 1rem;
 }
-.card-address {
+.card__address {
   color: #c5f82a;
   font-size: 1.4rem;
 }
 
-.social-media {
+.card__social-media {
   list-style: none;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
 }
-.social-media-link {
+.card__social-media-link {
   text-decoration: none;
   color: #fff;
   background-color: #333333;
@@ -61,8 +61,7 @@ body {
   border-radius: 1rem;
   font-size: 1.4rem;
 }
-.social-media-link:hover{
-    color: #1f1f1f;
-    background-color:  #c5f82a;
-   
+.card__social-media-link:hover {
+  color: #1f1f1f;
+  background-color: #c5f82a;
 }
